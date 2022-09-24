@@ -51,7 +51,6 @@ header::after {
   justify-content: space-around;
   border: none;
   border-radius: 0.5rem;
-  transition: 0.5s;
 }
 
 .switch-btn span {
@@ -68,8 +67,28 @@ header::after {
   height: 100%;
   border-radius: 0.5rem;
   display: block;
+  transition: 0.5s;
 }
 
 .slide .switch {
   left: 50%;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 999;
+  transition: 1s;
+}
+
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
 }
