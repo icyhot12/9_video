@@ -64,4 +64,12 @@ header::after {
   left: 0;
   background-color: #49a6e9;
   margin: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.slide .switch {
+  left: 50%;
 }
